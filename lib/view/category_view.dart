@@ -85,10 +85,12 @@ class _CategoryViewState extends State<CategoryView> {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(10),
                       child: SizedBox(
-                          width: 200,
-                          height: 100,
+                          width: 300,
+                          height: 120,
                           child: Image.network(
-                              categories[index].strCategoryThumb)),
+                              categories[index].strCategoryThumb,
+                              fit: BoxFit.cover,
+                              )),
                     ),
                     const SizedBox(
                       width: 10,

@@ -51,8 +51,8 @@ class DetailMakananPage extends StatelessWidget {
                 padding: EdgeInsets.all(16.0),
                 children: [
                   SizedBox(
-                    height: 250.0,
-                    width: 200.0,
+                    height: 200.0,
+                    width: 100.0,
                     child: Image.network(
                       mealImage,
                       fit: BoxFit.cover,
@@ -64,7 +64,7 @@ class DetailMakananPage extends StatelessWidget {
                       mealName,
                       style: TextStyle(
                         fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.bold, 
                       ),
                     ),
                   ),
@@ -105,8 +105,8 @@ class DetailMakananPage extends StatelessWidget {
                         launch(youtubeUrl);
                       },
                       child: Text(
-                        'Watch on YouTube',
-                        style: TextStyle(fontSize: 16.0),
+                        'Youtube Link',
+                        style: TextStyle(fontSize: 20.0),
                       ),
                     ),
                   ),
